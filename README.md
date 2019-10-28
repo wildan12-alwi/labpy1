@@ -10,4 +10,3 @@
 ![Untitle](https://user-images.githubusercontent.com/56942922/67623743-0ddbe680-f853-11e9-86ff-a482934f5c9b.png)
 * Selamat, Git sudah terinstal di windows. Untuk mencobanya,silahkan buka **CMD** atau **PowerShel**,kemudian ketik perintah
 ``git --version.``
-# ALWI
