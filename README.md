@@ -56,5 +56,45 @@ server repository ke local repository
 ``$ echo “#Latihan 1” >> README.md``
 * File ``README.md`` berhasil dibuat.
 ![echo](https://user-images.githubusercontent.com/56942922/67691370-0b9f9680-f9d1-11e9-93e4-5d804d075769.png)
+# Menambahkan File baru pada repository
+* Untuk menambahkan file yang baru saja dibuat tersebut gunakanperintah ``git add.`` 
+* File README.md berhasil ditambahkan. ``$ git add README.md``
+![Untitled3](https://user-images.githubusercontent.com/56942922/67753927-178a6780-fa68-11e9-9c84-68b4885ba5c8.png)
+# Commit (Menyimpan perubahan ke database)
+* Untuk menyimpan perubahan yang ada kedalam database repository
+local, gunakan perintah **git commit -m “komentar commit”**
+* Perubahan berhasil disimpan
+![Untitled4](https://user-images.githubusercontent.com/56942922/67754268-bd3dd680-fa68-11e9-9aff-8a0539c903ed.png)
+# Membuat repository server
+* Server reopsitory yang akan kita gunakan adalah [github.com](http://github.com "Ihhh KEPO !!!")
+* Anda harus membuat akun terlebih dahulu. 
+* Pada laman github, klik tombol start a project, atau
+ Dari menu (icon +) klik New Repository
+ ![Untitled5](https://user-images.githubusercontent.com/56942922/67754687-77cdd900-fa69-11e9-8d93-8f1143eca64e.png)
+# Membuat repository server
+* Isi nama repositorynya, **misal: labpy1.** 
+* lalu klik tombol **Create repository**
+![Untitled6](https://user-images.githubusercontent.com/56942922/67754937-e01cba80-fa69-11e9-90d7-0facfb494580.png)
+# Menambahkan Remote Repository
+* Remote Repository merupakan repository server yang akan
+digunakan untuk menyimpan setiap perubahan pada local repository,
+sehingga dapat diakses oleh banyak user. 
+* Untuk menambahkan remote repository server, gunakan perintah
+``git remote add origin [url]``
+![Untitled8](https://user-images.githubusercontent.com/56942922/67755176-3f7aca80-fa6a-11e9-9f88-34f0da56c107.png)
+# Push (Mengirim perubahan ke server)
+* Untuk mengirim perubahan pada local repository ke server gunakanperintah ``git push.`` 
+* Perintah ini akan meminta memasukkan username dan passwordpada akun **github.com** ``$ git push -u origin master``
+![Untitled9](https://user-images.githubusercontent.com/56942922/67756035-dd22c980-fa6b-11e9-8eeb-ff86f2e45f4b.png)
+# Melihat hasilnya pada server repository
+* Buka laman github.com,arahkan pada repositori- nya. 
+* Maka perubahan akan terlihat pada laman tersebut.
+![Untitled10](https://user-images.githubusercontent.com/56942922/67756276-44d91480-fa6c-11e9-8a6f-894738733087.png)
+# Clone Repository
+* Clone repository, pada dasarnya adalah meng-copy repository server
+dan secara otomatis membuat satu direktory sesuai dengan nama
+repositorynya *(working directory)*. 
+* Untuk melakukan cloning, gunakan perintah ``git clone [url]``
+![Untitled12](https://user-images.githubusercontent.com/56942922/67756377-79e56700-fa6c-11e9-91e1-60125f9eee05.png)
 
 
